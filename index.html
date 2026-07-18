@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .links-section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            color: #667eea;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 8px;
+        }
+        
+        .links-list {
+            list-style: none;
+        }
+        
+        .links-list li {
+            margin-bottom: 10px;
+        }
+        
+        .links-list a {
+            display: block;
+            padding: 12px 15px;
+            background: #f5f5f5;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            border-left: 4px solid #667eea;
+        }
+        
+        .links-list a:hover {
+            background: #667eea;
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 12px;
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p class="subtitle">A collection of useful links</p>
+        
+        <div class="links-section">
+            <div class="section-title">📚 Learning & Development</div>
+            <ul class="links-list">
+                <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+                <li><a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            </ul>
+        </div>
+        
+        <div class="links-section">
+            <div class="section-title">🎨 Design & Inspiration</div>
+            <ul class="links-list">
+                <li><a href="https://www.dribbble.com" target="_blank">Dribbble</a></li>
+                <li><a href="https://www.behance.net" target="_blank">Behance</a></li>
+                <li><a href="https://www.unsplash.com" target="_blank">Unsplash</a></li>
+                <li><a href="https://www.flaticon.com" target="_blank">Flaticon</a></li>
+            </ul>
+        </div>
+        
+        <div class="links-section">
+            <div class="section-title">🔧 Tools & Resources</div>
+            <ul class="links-list">
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2026 My Website. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
